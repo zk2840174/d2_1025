@@ -22,7 +22,7 @@ public class SampleController {
 
         log.info("============================");
 
-        return new String[] {"Hello", "World","Busan", "World", "111","2222"};
+        return new String[] {"Hello", "World","Busan", "World", "111","2222","333","444"};
     }
 }
 
