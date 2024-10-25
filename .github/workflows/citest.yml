@@ -44,7 +44,11 @@ jobs:
           echo "${{ secrets.DOCKER_TOKEN }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
 
+      - name: Build the Docker image
+        run: docker build -t zk2840174/d2_image:latest .
 
+      - name: Push the Docker image to Docker Hub
+        run: docker push zk2840174/d2_image:latest
 
 
 
