@@ -22,6 +22,6 @@ public class SampleController {
 
         log.info("============================");
 
-        return new String[] {"Hello", "World"};
+        return new String[] {"Hello", "World","Busan", "World"};
     }
 }
